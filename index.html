@@ -6,6 +6,7 @@
       <meta name="description" content="An Open Source Geospatial GNU/Linux Distribution">
       <meta name="author" content="Cameron Shorter">
       <meta name="author" content="Angelos Tzotsos">
+      <meta name="author" content="Vaclav Petras">
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,14 +21,13 @@
          <div class="slides">
             <section>
                <h1>OSGeoLive</h1>
-               <h3 style="color:#1166ad;">An Open Source Geospatial GNU/Linux Distribution</h3>
+               <h3 style="color:#1166ad;">and friends</h3>
                <br/>
                <br/>
-               <a class="image" target="_blank">
                <img width="600" src="images/banner.png">
-               </a>
-               <!--p><small>Presented by <a href="http://cameron.shorter.net">Cameron Shorter</a></small></p-->
-               <p><small><i>Press "s" for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.</i></small></p>
+               <p><a href="http://www4.ncsu.edu/~vpetras/">Vaclav (Vashek) Petras</a>, NCSU Center for Geospatial Analytics</p>
+               <p><small><small>CC BY 2017, main part based on OSGeoLive presentation by Cameron Shorter and Angelos Tzotsos</small></small></p>
+               <!-- Press "s" for slide notes, ESC to zoom out, SPACE / arrow keys to navigate. -->
                <aside class="notes">
                   <p>This OSGeoLive Lightning Overview, originally compiled by Cameron Shorter is licensed under a Creative Commons Attribution 3.0 License. It is derived from OSGeoLive Project Overviews, which are authored by the numerous OSGeoLive authors as referenced in the credits page at the end of this presentation, and also at <a href="http://live.osgeo.org">http://live.osgeo.org</a>.</p>
                   <p>We have created this presentation in the hope that it will help increase the awareness and uptake of the breadth of quality GeoSpatial Open Source Software.</p>
@@ -40,11 +40,26 @@
             <section>
                <section>
                   <h2>What is OSGeoLive?</h2>
-                  <a class="image" target="_blank">
-                     <img width="600" align="right" src="images/screenshots/800x600/osgeolive_menu.png">
-                  </a>
+                  <img class="stretch" src="images/screenshots/800x600/osgeolive_menu.png">
                   <ul>
                      <li>50+ Open Source Geospatial Applications</li>
+                     <li>Sample Datasets</li>
+                     <li>Consistent Overviews &amp; Quickstarts</li>
+                     <li>Translations</li>
+                  </ul>
+                  <aside class="notes">
+                     <p>OSGeo Live is a self-contained bootable DVD, based on the Lubuntu linux distribution, that is pre-installed and pre-configured with over 50 of the best GeoSpatial Open Source applications along with sample datasets.</p>
+                     <p>It contains overview and quickstart documentation for each application, as well as documentation about key OGC spatial standards.</p>
+                     <p>The DVD is ideal for handing out at conferences, using in workshops, and trialling a range of Open Source Software.</p>
+                  </aside>
+               </section>
+               <section>
+                  <h2>What is OSGeoLive?</h2>
+                  <h3>An Open Source Geospatial GNU/Linux Distribution</h3>
+                  <img class="stretch" src="images/screenshots/800x600/osgeolive_menu.png">
+                  <p>
+                  <ul>
+                     <li></li>
                      <li>Sample Datasets</li>
                      <li>Consistent Overviews &amp; Quickstarts</li>
                      <li>Translations</li>
@@ -94,47 +109,18 @@
                      <p>Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.</p>
                   </aside>
                </section>
-               <!--section>
-                  <h2>Technology</h2>
-                  <ul>
-                      <li>Shell installers</li>
-                      <li>Debian packaging / UbuntuGIS</li>
-                      <li>based on Lubuntu LTS</li>
-                      <li>built using the official Ubuntu spin-off tools</li>
-                      <li>Continous Integration / nightly builds</li>
-                      <li>Source Code Management in Git + Trac</li>
-                  </ul>
-                  <aside class="notes">
-                  </aside>
-                  </section-->
-               <section>
-                  <h2>New in 9.5?</h2>
-                    <ul>
-                        <li>Java World Wind - Desktop Virtual Globe</li>
-                        <li>istSOS - Sensor Observation Service</li>
-                        <li>22 applications updated</li>
-                    </ul>
-                  <br/>
-                  <a class="image" target="_blank">
-                     <img width="600" align="right" src="images/screenshots/800x600/osgeolive_menu.png">
-                  </a>
-                  <aside class="notes">
-                    <p>In OSGeo-Live Version 9.5 we have included 2 new projects: Java World Wind and istSOS, and updated 22 existing applications.</p>
-                  </aside>
-               </section>
             </section>
             <section>
                <section>
                   <h2>Open Source Geospatial <br/> Foundation (OSGeo)</h2>
-                  <p align="left">Since 2006 A Non Profit Umbrella for:</p>
+                  <p align="left">A Non Profit Umbrella for:</p>
                   <ul>
                      <li>GeoSpatial Free and Open Source Software</li>
-                     <li>Education</li>
+                     <li>Education (GeoForAll)</li>
                      <li>Open Data</li>
                   </ul>
                   <br/>
-                  <img src="images/logos/OSGeo_compass_with_text_square.png" alt="OSGeo" width="260" target="http://osgeo.org" />
-                  <img class="image" valign="top" src="images/presentation/gnu.png" width="300" alt="GNU" />
+                  <img src="images/logos/OSGeo_compass_with_text_square.png" alt="OSGeo" class="stretch" target="http://osgeo.org" />
                   <aside class="notes">
                      <p>OSGeo-Live derives its name from the Open Source GeoSpatial Foundation, or OSGeo for short.</p>
                      <p>The OSGeo Foundation was set up in 2006 as a non-profit umbrella organisation to support development and promotion of quality GeoSpatial Open Source Software and Open Data.</p>
@@ -888,6 +874,53 @@
                   <aside class="notes">
                      <p>MapWindow GIS is a desktop client specifically written to integrate with windows based applications as it is based upon ActiveX controls. As such it is easy to incorporate into Microsoft Office based products such as Excel and Access, as well as programs written in VisualBasic, C++, C#, .NET, and Delphi.  MapWindow provides tools to visualize, manage, edit, analyse data, and compose printable maps.</p>
                   </aside>
+               </section>
+            </section>
+            <!-- GIS.lab -->
+            <section>
+               <section>
+               <h2>GIS.lab</h2>
+               <h4></h4>
+                  <p>
+                      
+                  <p><small></small></p>
+               </section>
+            </section>
+            <!-- OSGeo4W -->
+            <section>
+               <section>
+               <h2>OSGeo4W</h2>
+               <h4></h4>
+                  <p>
+                      
+                  <p><small></small></p>
+               </section>
+            </section>
+            <!-- Homebrew osgeo4mac -->
+            <section>
+               <section>
+               <h2>Homebrew osgeo4mac</h2>
+               <h4></h4>
+                  <p>
+                      
+                  <p><small></small></p>
+                  <pre style="width: 30%;">
+brew tap osgeo/osgeo4mac
+brew install grass7</pre>
+               </section>
+            </section>
+            <!-- Ubuntu GIS -->
+            <section>
+               <section>
+               <h2>Ubuntu GIS</h2>
+               <h4></h4>
+                  <p>
+                      
+                  <p><small></small></p>
+                  <pre style="width: 60%;">
+sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
+sudo apt-get update
+sudo apt-get install grass</pre>
                </section>
             </section>
             <!-- Credits -->
