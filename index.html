@@ -507,9 +507,9 @@
                   <small>
                      <table>
                         <tr>
-                           <td>Python<br/><img src="images/project_logos/logo-python.png" width="120"/></td>
-                           <td>R<br/><img src="images/project_logos/logo-R.png" width="120"/></td>
-                           <td>Jupyter Notebook<br/><img src="images/project_logos/logo-jupyter.png" width="120"/></td>
+                           <td>Python<br/><img src="images/project_logos/logo-python.png" style="height: 120px; box-shadow: none; background: white;"/></td>
+                           <td>R<br/><img src="images/project_logos/logo-R.svg" style="height: 120px; box-shadow: none; background: white;"/></td>
+                           <td>Jupyter Notebook<br/><img src="images/project_logos/logo-jupyter.png" style="height: 120px; box-shadow: none; background: white;"/></td>
                         </tr>
                      </table>
                   </small>
@@ -558,10 +558,13 @@
             <section>
                <section>
                <h2>GIS.lab</h2>
-               <h4></h4>
-                  <p>
-                      
-                  <p><small></small></p>
+                  <img src="images/presentation/gislab-architecture.png" class="stretch" />
+                  <br>
+                  <img src="images/project_logos/logo-gislab.svg" style="box-shadow: none; background: none;"/>
+               </section>
+               <section>
+               <h2>GIS.lab Unit</h2>
+                  <img src="images/presentation/gislab-unit.png" class="stretch" />
                </section>
             </section>
             <!-- POSM -->
@@ -572,15 +575,25 @@
                   <ul>
                       <li>offline OpenStreetMap
                       <li>complete OSM ecosystem
+                      <li>additional mapping tools
                   </ul>
-                  <p><small></small></p>
+                  <br>
+                  <img src="images/project_logos/logo-posm.png" style="width: 50%;" />
+               </section>
+               <section>
+               <h2>POSM workflow</h2>
+                  <img src="images/presentation/posm-workflow.png" class="stretch" />
+                  <p><small>Image by American Red Cross</small></p>
                </section>
                <section>
                <h2>OpenDroneMap</h2>
                <h3>UAV imagery processing</h3>
                   <ul>
-                      <li>
+                      <li>command line
+                      <li>WebODM
                   </ul>
+                  <br>
+                  <img src="images/project_logos/logo-odm.png" style="width: 50%;" />
                   <p><small></small></p>
                </section>
             </section>
@@ -678,7 +691,7 @@ sudo apt-get install grass</pre>
              center: true,
 
              theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-             transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+             transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
              // Optional libraries used to extend on reveal.js
              dependencies: [
