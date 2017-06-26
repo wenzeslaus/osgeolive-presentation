@@ -72,44 +72,25 @@
                </section>
                <section>
                   <h2>DVD / USB / Virtual Machine</h2>
-                  <a class="image" target="_blank">
-                  <img width="600" src="images/presentation/virtual_machine_usb.png">
-                  </a>
+                  <img src="images/presentation/virtual_machine_usb.png" class="stretch">
                   <aside class="notes">
                      <p>OSGeo-Live can also be run from a DVD, USB flash drive, installed into a Virtual Machine, or installed onto your hard drive.</p>
                      <p>This presentation provides a lightning overview of all applications installed on OSGeo-Live, which effectively gives you a birds eye view of the breadth of robust GeoSpatial Open Source Software available.</p>
                   </aside>
                </section>
                <section>
-                  <h2>Quality Criteria</h2>
+                  <h2>Apache VCL</h2>
+                  <h3>Virtual Computing Lab</h3>
                   <ul>
-                     <li>Established, stable, working software</li>
-                     <li>Active community</li>
-<li><a href="http://live.osgeo.org/en/metrics.html">http://live.osgeo.org/en/metrics.html</a></li>
+                     <li>Running at North Carolina State University <small style="vertical-align: initial;">(for NCSU students and faculty)</small>
+                     <li>OSGeoLive images accessible remotely on demand
                   </ul>
-                  <a class="image" target="_blank">
-                  <img width="600" src="images/presentation/metrics.png">
-                  </a>
                   <aside class="notes">
-                     <p>OSGeo-Live helps new users quickly find quality GIS applications from the myriads of options. OSGeo-Live only accepts established open source projects, and users can then verify the application works by running it on OSGeo-Live. This slide shows the OpenHUB metrics page, which shows the community size and activity.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>Production &amp; Marketing </br> Pipeline</h2>
-                  <a class="image" target="_blank">
-                  <img width="600" src="images/presentation/pipeline.png">
-                  </a>
-                  <aside class="notes">
-                     <p>OSGeo-Live provides a production and marketing pipeline, providing value to a whole range of user groups.</p>
-                     <p>Developers who package and support testing of their applications on OSGeo-Live get their applications marketed at conferences, workshops and on the web.</p>
-                     <p>Document writers get their documentation reviewed, translated into multiple languages and published.</p>
-                     <p>Translators are provided with quality source documentation, and a publish through OSGeo web pages.</p>
-                     <p>Conference organisors welcome presentations which explain the breadth of Geospatial Open Source, often having a VIP present a derivative of the OSGeo-Live during keynote presentations, and adding value to delegates by giving away an OSGeo-Live DVD or USB.</p>
-                     <p>Geospatial educators and workshop presenters use the stable OGeo-Live Virtual Machine or USB for practical class room settings.</p>
-                     <p>Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in their projects.</p>
+                     <p></p>
                   </aside>
                </section>
             </section>
+            <!-- OSGeo -->
             <section>
                <section>
                   <h2>Open Source Geospatial <br/> Foundation (OSGeo)</h2>
@@ -127,11 +108,11 @@
                   </aside>
                </section>
                <section>
-                  <h2>OGC Standards</h2>
+                  <h2>Open Geospatial Consortium (OGC)</h2>
                   <ul>
-                     <li>Interoperability</li>
-                     <li>Future Proof</li>
-                     <li>Return on Investment</li>
+                     <li><em>open</em> standards <small style="vertical-align: initial;">(interoperability, avoiding vendor lock-in)</small></li>
+                     <li>open source reference implementations</li>
+                     <li>overviews of key OGC standards in OSGeoLive</li>
                   </ul>
                   <br/>
                   <img width="600" src="images/presentation/ogc.png">
@@ -145,8 +126,7 @@
             <!-- Desktop GIS -->
             <section>
                <section>
-                  <h2>Desktop GIS</h2>
-                  <h3>General GIS viewing, editing, and analysis on the desktop</h3>
+                  <h2>Desktop GIS and remote sensing</h2>
                   <small>
                      <table>
                         <tr>
@@ -157,6 +137,7 @@
                         <tr>
                            <td>uDig<br/><img src="images/project_logos/logo-uDig.png" width="150"/></td>
                            <td>SAGA<br/><img src="images/project_logos/logo-saga.png" width="150"/></td>
+                           <td>Orfeo ToolBox<br/><img src="images/project_logos/logo-otb.png" width="120"/></td>
                         </tr>
                      </table>
                   </small>
@@ -194,9 +175,9 @@
                </section>
                <section>
                   <h2>uDig</h2>
-                  <h3>User-friendly Desktop Internet GIS</h3>
                   <img src="images/screenshots/1024x768/udig-overview.png" class="stretch" />
                   <aside class="notes">
+                     <p>User-friendly Desktop Internet GIS</p>
                      <p>uDig is a java-based spatial data viewer and editor, which is based upon the geotools library and powerful Eclipse development environment, making uDig a common choice for developers wishing to integrate mapping into java based applications.</p>
                   </aside>
                </section>
@@ -208,12 +189,18 @@
                      <p> Among others, the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes like hydrology, landscape development and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ programming interface.</p>
                   </aside>
                </section>
+               <section>
+                  <h2>Orfeo Toolbox</h2>
+                  <img src="images/screenshots/800x600/otb-mapping.jpg" width="700" alt="" /></p>
+                  <aside class="notes">
+                     <p>ORFEO Toolbox is a high performance image processing library, funded by the French Space Agency. It is primarily used for processing remote sensing images such as those gathered by radars, satellites and aerial photography.  It provides tools for the future optic and radar images such as tridimensional aspects, changes detection, texture analysis, and pattern matching.</p>
+                  </aside>
+               </section>
             </section>
             <!-- Browser Facing GIS -->
             <section>
                <section>
-                  <h2>Browser Facing GIS</h2>
-                  <h3>General GIS viewing, editing and analysis in the browser</h3>
+                  <h2>General GIS viewing, editing and analysis<br>in the browser</h2>
                   <small>
                      <table>
                         <tr>
@@ -234,15 +221,16 @@
                   </aside>
                </section>
                <section>
-                  <h2>OpenLayers - Browser Mapping Library</h2>
+                  <h2>OpenLayers</h2>
                   <img src="images/screenshots/800x600/openlayers-basic.png" class="stretch" />
                   <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
                   <aside class="notes">
+                     <p>Browser Mapping Library
                      <p>OpenLayers provides an extensive set of browser-based mapping tools and widgets, similar to Google Maps. All functionality runs inside the web browser, which makes OpenLayers easy to install, without any server-side dependencies.</p>
                   </aside>
                </section>
                <section>
-                  <h2>Leaflet - Mobile Friendly <br/> Interactive Maps</h2>
+                  <h2>Leaflet</h2>
                   <img src="images/screenshots/1024x768/leaflet-overview.png" class="stretch" />
                   <aside class="notes">
                      <p>Leaflet is a light weight JavaScript library for browser based application, designed to work across a wide range of browsers and mobile platforms.</p>
@@ -250,22 +238,24 @@
                   </aside>
                </section>
                <section>
-                  <h2>Cesium - 3D globes and 2D maps in a browser</h2>
-                  <p> <img src="images/screenshots/1024x768/cesiumjs_3in1.png" height="500" alt="" /> </p>
+                  <h2>Cesium</h2>
+                  <img src="images/screenshots/1024x768/cesiumjs_3in1.png" class="stretch" />
                   <aside class="notes">
                      <p>Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.</p>
                   </aside>
                </section>
                <section>
-                  <h2>Geomajas - Browser GIS Client</h2>
+                  <h2>Geomajas</h2>
                   <img src="images/screenshots/1024x768/geomajas_1024x768_screen1.png" class="stretch" />
+                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
                   <aside class="notes">
                      <p>Geomajas provides a wide range of spatial tools in a thin browser mapping client which integrates into the powerful server-side, java- based geotools library for processing.  This means Geomajas applications can provide very powerful functionality in the browser and still be performant.</p>
                   </aside>
                </section>
                <section>
-                  <h2>Mapbender - Geoportal <br/> Framework</h2>
+                  <h2>Mapbender</h2>
                   <img src="images/screenshots/800x600/mapbender3_basic_application.png" class="stretch" />
+                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
                   <aside class="notes">
                      <p>Mapbender is a web-based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.</p>
                      <p>Mapbender allows users to create customised browser clients from a wide range of widgets with minimal programming. Widgets integrate with server functionality to provide advanced functionality like security proxying, digitizing, auto snapping and more.</p>
@@ -273,17 +263,20 @@
                   </aside>
                </section>
                <section>
-                  <h2>GeoMoose - Web GIS Portal</h2>
+                  <h2>GeoMoose</h2>
                   <img src="images/screenshots/1024x768/geomoose-2_6-screenshot013.png" class="stretch" />
+                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
                   <aside class="notes">
+                     <p>Web GIS Portal
                      <p>GeoMOOSE is a mapping framework built upon OpenLayers and MapServer which is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated). It provides services for viewing and organising many layers, selection operations and dataset searches.</p>
                   </aside>
                </section>
                <section>
-                  <h2>GeoNode - Geospatial CMS</h2>
+                  <h2>GeoNode</h2>
                   <img src="images/screenshots/800x600/geonode_basic_application.png" class="stretch" />
+                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
                   <aside class="notes">
-                    <p>GeoNode is a Content Management System for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.</p>
+                    <p>GeoNode is a Content Management System (CMS) for geospatial data which provides creation, sharing, and collaborative use of geospatial data. Datasets can be uploaded, maps and metadata can be edited and published, and user ratings and comments can be captured.</p>
                   </aside>
                </section>
             </section>
@@ -297,20 +290,13 @@
                         <tr>
                            <td>GeoServer<br/><img src="images/project_logos/logo-GeoServer.png" width="120"/></td>
                            <td>MapServer<br/><img src="images/project_logos/logo-mapserver-new.png" width="120" height="120"/></td>
+                           <td>GeoNetwork<br/><img src="images/project_logos/logo-GeoNetwork.png" width="120"/></td>
                            <td>deegree<br/><img src="images/project_logos/logo-deegree.png" width="150"/></td>
-                           <td>ncWMS<br/><img src="images/project_logos/logo-ncWMS.png" width="120"/></td>
-                        </tr>
-                        <tr>
-                           <td>EOxServer<br/><img src="images/project_logos/logo-eoxserver.png" width="120"/></td>
-                           <td>GeoNetwork<br/><img src="images/project_logos/logo-GeoNetwork.png" width="150"/></td>
-                           <td>pycsw<br/><img src="images/project_logos/logo-pycsw.png" width="120"/></td>
-                           <td>MapProxy<br/><img src="images/project_logos/logo-mapproxy.png" width="120"/></td>
                         </tr>
                         <tr>
                            <td>QGIS Server<br/><img src="images/project_logos/logo-QGIS.png" width="120"/></td>
+                           <td>pycsw<br/><img src="images/project_logos/logo-pycsw.png" width="120"/></td>
                            <td>istSOS<br/><img src="images/project_logos/logo-istsos.png" width="120"/></td>
-                           <td>52North WPS/SOS<br/><img src="images/project_logos/logo_52North_160.png" width="120"/></td>
-                           <td>TinyOWS<br/><img src="images/project_logos/logo-TinyOWS.png" width="120"/></td>
                            <td>Zoo Project<br/><img src="images/project_logos/logo-Zoo.png" width="150"/></td>
                         </tr>
                      </table>
@@ -345,20 +331,6 @@
                   </aside>
                </section>
                <section>
-                  <h2>ncWMS - Web Map Service</h2>
-                  <img src="images/screenshots/1024x768/ncWMS-03-timeseries.png" class="stretch" />
-                  <aside class="notes">
-                     <p>ncWMS publishes multi-dimensional data, such as environmental and weather data, as an OGC compliant Web Map Service.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>EOxServer - Web Coverage Service</h2>
-                  <img src="images/screenshots/1024x768/eoxserver_screenshot.png" class="stretch" />
-                  <aside class="notes">
-                     <p>EOxServer is a system for accessing large amounts of satellite and earth observation data, and selecting subsets in space and time.</p>
-                  </aside>
-               </section>
-               <section>
                   <h2>GeoNetwork - Metadata <br/>Catalogue</h2>
                   <img src="images/screenshots/1024x768/geonetwork-overview.png" class="stretch" />
                   <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
@@ -376,13 +348,6 @@
                   </aside>
                </section>
                <section>
-                  <h2>MapProxy - Proxy WMS & tile services</h2>
-                  <img src="images/screenshots/800x600/mapproxy.png" width="700" alt="" /></p>
-                  <aside class="notes">
-                     <p>Like the GeoWebCache tiling functionality in GeoServer, MapProxy tiles maps from map services, and stores them in a local cache for fast access.</p>
-                  </aside>
-               </section>
-               <section>
                   <h2>QGIS Server - Web Map Service</h2>
                   <img src="images/screenshots/1024x768/qgis-mapserver-screenshot.jpg" class="stretch" />
                   <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
@@ -395,20 +360,6 @@
                   <img src="images/screenshots/1024x768/screenshot_istsos.png" class="stretch" />
                   <aside class="notes">
                      <p>istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) Sensor Observation Service (SOS) standard.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>52°North SOS - Sensor <br/>Observation Service</h2>
-                  <img src="images/screenshots/1024x768/52n_sos_overview.png" class="stretch" />
-                  <aside class="notes">
-                     <p>The 52°North Sensor Observation Service (SOS) provides a standards based interface for reading of live and archived data captured by in-situ and remote sensors. Sensors are things like a camera on a satellite or a water level meter in a stream.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>52°North WPS - Web <br/>Processing Service</h2>
-                  <img src="images/screenshots/800x600/52nWPS_test_client.png" class="stretch" />
-                  <aside class="notes">
-                     <p>The 52°North WPS is a java-based Web Processing Service which provides web access to geospatial processing algorithms provided by Sextane, ArcGIS Server, GRASS or custom developed functions. Algorithms may be as simple as determining the difference in influenza cases between two different seasons, or as complicated as a global climate change model.</p>
                   </aside>
                </section>
                <section>
@@ -521,35 +472,17 @@
             <!-- Spatial Tools -->
             <section>
                <section>
-                  <h2>Spatial Tools</h2>
-                  <h3>Specific analysis tools</h3>
+                  <h2>Programmable cartography</h2>
                   <small>
                      <table>
                         <tr>
-                           <td>GeoKettle<br/><img src="images/project_logos/logo-geokettle.png" width="120"/></td>
                            <td>GMT<br/><img src="images/project_logos/logo-GMT.png" width="150"/></td>
-                           <!--td>Jupyter Notebook<br/><img src="images/project_logos/logo-jupyter.png" width="110"/></td-->
-                        </tr>
-                        <tr>
                            <td>Mapnik<br/><img src="images/project_logos/logo-mapnik.png" width="150"/></td>
-                        </tr>
-                        <tr>
-                           <td>OSSIM<br/><img src="images/project_logos/logo-ossim.png" width="150"/></td>
-                           <td>ORFEO Toollbox<br/><img src="images/project_logos/logo-otb.png" width="120"/></td>
-                           <td>R<br/><img src="images/project_logos/logo-R.png" width="120"/></td>
                         </tr>
                      </table>
                   </small>
                   <aside class="notes">
                      <p>The next category we have grouped together are Spatial Tools.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>GeoKettle - Extract Transform Load (ETL)</h2>
-                  <img src="images/screenshots/1024x768/geokettle-overview.png" class="stretch" />
-                  <aside class="notes">
-                     <p>GeoKettle is a "spatially-enabled" version of Pentaho Data Integration, a powerful &quot;Extract, Transform and Load&quot; tool, or ETL tool.  GeoKettle compares with the proprietary FME.</p>
-                     <p>GeoKettle is particularly useful for automating complex and repetitive data processing between different formats and databases, without producing specific code.</p>
                   </aside>
                </section>
                <section>
@@ -559,13 +492,6 @@
                      <p>Generic Mapping Tools, or GMT is a collection of tools that allow users to manipulate (x,y) and (x,y,z) data sets for filtering, trend fitting, gridding, projecting, and so on. It supports the production of journal quality cartographic illustrations ranging from simple x-y plots through to contour maps to artificially illuminated surfaces and 3-D perspective views in black and white, gray tone, hachure patterns, and 24-bit color.</p>
                   </aside>
                </section>
-               <!--section>
-                  <h2>Jupyter Notebook - Mixing rich media in documentation</h2>
-                  <img src="images/screenshots/800x600/jupyter-screenshot.png" class="stretch" />
-                  <aside class="notes">
-                     <p>Jupyter notebooks contain a list of input and output cells which allow you to embed rich media into a document. They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create presentations using structured text along with embedded rich media. Input cells can include geospatial functions from other applications, such as gdal, R, and many others.</p>
-                  </aside>
-               </section-->
                <section>
                   <h2>Mapnik - Cartographic <br/>Rendering</h2>
                   <img src="images/screenshots/1024x768/mapnik-screenshot-barcelona.png" width="800" alt="" /></p>
@@ -573,23 +499,26 @@
                      <p>Mapnik is a toolkit for rendering beautiful maps, with clean, soft edges for features provided by quality anti-aliasing graphics, also intelligent label placement, and scalable, SVG symbolisation. Most famously, mapnik is used to render the Open Street Map layers.</p>
                   </aside>
                </section>
+            </section>
+            <!-- Programming -->
+            <section>
                <section>
-                  <h2>OSSIM - Image Processing</h2>
-                  <img src="images/screenshots/800x600/ossim-imagelinker.jpg" class="stretch" />
+                  <h2>Scripting, statistics, science</h2>
+                  <small>
+                     <table>
+                        <tr>
+                           <td>Python<br/><img src="images/project_logos/logo-python.png" width="120"/></td>
+                           <td>R<br/><img src="images/project_logos/logo-R.png" width="120"/></td>
+                           <td>Jupyter Notebook<br/><img src="images/project_logos/logo-jupyter.png" width="120"/></td>
+                        </tr>
+                     </table>
+                  </small>
                   <aside class="notes">
-                     <p>The Open Source Software Image Map, often referred to as OSSIM, or Awesome Image Processing, is a high performance engine for remote sensing, image processing, geographical information systems and photogrammetry.</p>
-                     <p> OSSIM has been funded by several US government agencies in the intelligence and defense communities. Designed as a series of high performance software libraries written in C++, it includes many command line utilities, GUI applications, and integrated systems.</p>
+                     <p>The next category we have grouped together are Spatial Tools.</p>
                   </aside>
                </section>
                <section>
-                  <h2>Orfeo Toolbox: Image <br/>Processing</h2>
-                  <img src="images/screenshots/800x600/otb-mapping.jpg" width="700" alt="" /></p>
-                  <aside class="notes">
-                     <p>ORFEO Toolbox is a high performance image processing library, funded by the French Space Agency. It is primarily used for processing remote sensing images such as those gathered by radars, satellites and aerial photography.  It provides tools for the future optic and radar images such as tridimensional aspects, changes detection, texture analysis, and pattern matching.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>R - Statistical Programing</h2>
+                  <h2>Python and R</h2>
                   <img src="images/screenshots/1024x768/r-screenshot.png" class="stretch" />
                   <aside class="notes">
                      <p>R is a powerful, widely-used software environment for statistical computing and graphics which excels at analyzing and processing geographic data sets. Geospatial analysis capabilities provide access to a large number of traditional and state of the art algorithms.</p>
@@ -597,89 +526,12 @@
                      <p>The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to a graphical user interface.  Fortunately R is well documented which eases the learning process.</p>
                   </aside>
                </section>
-            </section>
-            <!-- Domain Specific GIS -->
-            <section>
                <section>
-                  <h2>Domain Specific GIS</h2>
-                  <h3>Applications targeted at a specific domain</h3>
-                  <small>
-                     <table>
-                        <tr>
-                           <td>Ushahidi<br/><img src="images/project_logos/logo-ushahidi.png"/></td>
-                           <td>osgEarth<br/><img src="images/project_logos/logo-osgearth.png" width="200"/></td>
-                        </tr>
-                     </table>
-                  </small>
+                  <h2>Jupyter Notebook</h2>
+                  <h3>Text, code and results as rich media</h3>
+                  <img src="images/screenshots/800x600/jupyter-screenshot.png" class="stretch" />
                   <aside class="notes">
-                     In this section, we have grouped applications targeted at a specific domain.
-                  </aside>
-               </section>
-               <section>
-                  <h2>Ushahidi - Mapping and <br/>Timeline for events</h2>
-                  <img src="images/screenshots/1024x768/ushahidi-drc-screenshot.png" class="stretch" />
-                  <aside class="notes">
-                     <p>Ushahidi is a platform that allows anyone to gather distributed data via SMS, email or the web and visualize it on a map or timeline. It facilitates democratizing information, increasing transparency and lowering the barriers for individuals to share their stories.</p>
-                     <p>Ushahidi, which means &quot;testimony&quot; in Swahili, was initially developed to map reports of violence in Kenya after the post-election fallout at the beginning of 2008 and attracted 45,000 users in its first deployment.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>osgEarth - 3D Terrain <br/>Rendering</h2>
-                  <img src="images/screenshots/1024x768/osgearth.jpg" class="stretch" />
-                  <aside class="notes">
-                     <p>osgEarth is a scalable 3D terrain rendering toolkit for OpenSceneGraph, an open source, high performance, 3 dimensional graphics toolkit. Just create a simple XML file, point it at your imagery, elevation, and vector data, load it into your favorite Open Scene Graph application, and go!</p>
-                  </aside>
-               </section>
-            </section>
-            <!-- Data -->
-            <section>
-               <section>
-                  <h2>Data</h2>
-                  <h3>Spatial data sets</h3>
-                  <small>
-                     <table>
-                        <tr>
-                           <td>Natural Earth<br/><img src="images/project_logos/logo-naturalearth.png"/></td>
-                           <td>Open Street Map<br/><img src="images/project_logos/logo-osm.png"/></td>
-                        </tr>
-                        <tr>
-                           <td>North Carolina<br/><img src="images/project_logos/logo-ncdataset.png"/></td>
-                           <td>netCDF<br/><img src="images/project_logos/logo-netcdf.png"/></td>
-                        </tr>
-                     </table>
-                  </small>
-                  <aside class="notes">
-                     <p>Of course, all these free tools become much more useful with access to free mapping data.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>Natural Earth - Global Data Sets</h2>
-                  <img src="images/screenshots/1024x768/naturalearth.png" class="stretch" />
-                  <aside class="notes">
-                     <p>And that is the focus of the Natural Earth project.</p>
-                     <p>Natural Earth provides cartographers with public domain maps for creating small-scale world, regional, and country maps at a range of scales.  Both political and physical features are included in both vector and raster formats which align perfectly.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>North Carolina educational dataset</h2>
-                  <img src="images/screenshots/1024x768/north_carolina_dataset_nviz.jpg" class="stretch" />
-                  <aside class="notes">
-                     <p>The North Carolina dataset bundled with OSGeo-Live is a good educational dataset, providing raster data, vector data, a watershed model, elevation maps, landuse and landcover, LANDSAT7 imagery and more.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>OSM - Sample extract from OpenStreetMap</h2>
-                  <img src="images/screenshots/1024x768/osm-screenshot.jpg" class="stretch" />
-                  <aside class="notes">
-                     <p>OpenStreetMap is a crowd sourced map of the world which has grown to become one of the most detailed sources of local-scale map data available.</p>
-                     <p>The OSGeo-Live distribution includes a city sized extract of OpenStreetMap data.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>NetCDF - Time series <br/>temperature and precipitation</h2>
-                  <img src="images/screenshots/800x600/netcdf_annual_avg_max_temp.png" class="stretch" />
-                  <aside class="notes">
-                     <p>A NetCDF dataset is provided, which includes annual maximum daily temperature, and annual maximum consecutive five-day precipitation, both historical and predicted from 1850 to 2100.</p>
+                     <p>Jupyter notebooks contain a list of input and output cells which allow you to embed rich media into a document. They are a bit like a spreadsheet in that each cell can contain code or a formula, and a bit like a web page in that authors can create presentations using structured text along with embedded rich media. Input cells can include geospatial functions from other applications, such as gdal, R, and many others.</p>
                   </aside>
                </section>
             </section>
@@ -690,56 +542,15 @@
                   <small>
                      <table>
                         <tr>
-                           <td>GDAL/OGR<br/><img src="images/project_logos/logo-GDAL.png"/></td>
+                           <td>GDAL<br/><img src="images/project_logos/logo-GDAL.png"/></td>
                            <td>GeoTools<br/><img src="images/project_logos/logo-GeoTools.png"/></td>
-                           <td>GEOS<br/><img src="images/project_logos/logo-GEOS.png" width="200"/></td>
-                           <td>MetaCRS Proj4<br/><img src="images/project_logos/logo-metacrs.png"/></td>
-                        </tr>
-                        <tr>
+                           <td>MetaCRS (PROJ.4)<br/><img src="images/project_logos/logo-metacrs.png"/></td>
                            <td>libLAS<br/><img src="images/project_logos/logo-libLAS.png"/></td>
                         </tr>
                      </table>
                   </small>
                   <aside class="notes">
                      <p>We will now look at key libraries which have shown a level of quality by going through the OSGeo Incubation process.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>GDAL/OGR - Geospatial Data Translation Tools</h2>
-                  <img src="images/screenshots/1024x768/gdal_ogr_proj_overview.png" class="stretch" />
-                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
-                  <aside class="notes">
-                    <p>GDAL and OGR are best known as the vector and raster Geographic Data Abstraction Libraries used by many open source and proprietary applications.  However, the functions are also accessible as command line utilities to translate and process a wide range of vector and raster geospatial data formats.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>GEOS - C/C++ Spatial Library</h2>
-                  <img src="images/project_logos/logo-GEOS.png" class="stretch" />
-                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
-                  <aside class="notes">
-                     <p>GEOS provides a port of JTS to C and C++. There are also bindings to Python and other languages.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>GeoTools</h2>
-                  <img src="images/screenshots/800x600/geotools-overview.png" class="stretch" />
-                  <br><img src="images/logos/OSGeo_project.png" style="box-shadow: none; background: none;" />
-                  <aside class="notes">
-                     <p>GeoTools is used by most Java based Geospatial applications. It provides standards based geospatial data structures, connectors to numerous data stores, data manipulation and rendering functionality.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>MetaCRS - Coordinate Reference System Transformations</h2>
-                  <img src="images/project_logos/logo-metacrs.png" class="stretch" />
-                  <aside class="notes">
-                     <p>The MetaCRS project is actually a collection of five different projects which provide algorithms to transform between different coordinate systems.</p>
-                  </aside>
-               </section>
-               <section>
-                  <h2>libLAS - LiDAR Data Access</h2>
-                  <img src="images/screenshots/800x600/liblas.jpg" class="stretch" />
-                  <aside class="notes">
-                     <p>libLAS is a C/C++ library for reading and writing the LAS LiDAR format.  LiDAR, or Light Detection and Ranging, is a form of high precision range detection, much like radar or sonar, that uses laser light as the electromagnetic emission.</p>
                   </aside>
                </section>
             </section>
@@ -750,6 +561,26 @@
                <h4></h4>
                   <p>
                       
+                  <p><small></small></p>
+               </section>
+            </section>
+            <!-- POSM -->
+            <section>
+               <section>
+               <h2>POSM</h2>
+               <h3>Portable OpenStreetMap</h3>
+                  <ul>
+                      <li>offline OpenStreetMap
+                      <li>complete OSM ecosystem
+                  </ul>
+                  <p><small></small></p>
+               </section>
+               <section>
+               <h2>OpenDroneMap</h2>
+               <h3>UAV imagery processing</h3>
+                  <ul>
+                      <li>
+                  </ul>
                   <p><small></small></p>
                </section>
             </section>
@@ -794,19 +625,15 @@ sudo apt-get install grass</pre>
             <section>
                <section>
                <h2>Credits</h2>
-               <h4>Developers and Translators</h4>
-                 <small><small>
-                    <!-- Contributors and translators table is inserted here -->
-                  </small></small>
-                  <br/><br/>
-                  <p><small><b>Core team:</b> Angelos Tzotsos, Cameron Shorter, Hamish Bowman, Alex Mandel and Brian Hamlin.</small></p>
+                  <p>OSGeoLive core team: Angelos Tzotsos, Cameron Shorter,<br> Hamish Bowman, Alex Mandel and Brian Hamlin</p>
+                  <p>OSGeoLive contributors and translators
+                  <p>Open source software developers
                   <aside class="notes">
                      <p>As you can see listed here, many people have been involved in packaging the Open Source Software for OSGeo-Live, and literally thousands of developers have helped build the software we package. Thank you. I'd like to especially mention Angelos Tzotsos, Cameron Shorter, Hamish Bowman, Alex Mandel and Brian Hamlin who have led the coordination and core packaging of the OSGeo-Live project, and Jirotech, the Information Center for the Environment at the University of California, for providing resources and sponsorship.</p>
                   </aside>
                </section>
                <section>
                   <h2>Sponsors</h2>
-
                   <small>
                     <table>
                       <tr>
@@ -816,7 +643,7 @@ sudo apt-get install grass</pre>
                       </tr><tr>
                         <td>NTUA<br/><img src="images/logos/ntua_logo.jpg" width="200" alt="National Technical University of Athens" target="http://www.ntua.gr/index_en.html"/></td>
                         <td>DebianGIS</br><img src="images/logos/debiangis_mollweide.png" width="200" alt="The DebianGIS and UbuntuGIS projects" target="http://wiki.debian.org/DebianGis" /></td>
-                        <td>OSDM</br><img src="images/logos/OSDM_stacked.png" alt="The Australian Government's Office of Spatial Data Management" target="http://www.osdm.gov.au"/></td>
+                        <td>OSDM<br><br>The Australian Government's<br>Office of Spatial Data Management</td>
                       </tr><tr>
                         <td>okeanos<br/><img src="images/logos/okeanos-logo.jpg" width="200" alt="The Greek Academic cloud service (IaaS) Okeanos" target="https://okeanos.grnet.gr/"/></td>
                       </tr>
@@ -826,8 +653,12 @@ sudo apt-get install grass</pre>
                      <p>And we'd also like to acknowledge the contributions of sponsors and supporting organisations: The OSGeo Foundation, Jirotech, the Information Center for the Environment at the University of California, the Remote Sensing Laboratory at the National Technical University of Athens, the DebianGIS and UbuntuGIS projects, and the Australian government's Office of Spatial Data Management.</p>
                   </aside>
                </section>
+            </section>
+            <section>
                <section>
                   <h1>Questions?</h1>
+                  <p><a href="https://twitter.com/vaclavpetras">Twitter: vaclavpetras</a>
+                  <p><a href="https://github.com/wenzeslaus">GitHub: wenzeslaus</a>
                   <aside class="notes">
                      <p>This has just been a taster, do you want to know more? You can see project descriptions or download the OSGeo-Live DVD from the website. The OSGeo Foundation provides links to all things GeoSpatial and Open Source.  There are many conferences worth attending, in particular the annual FOSS4G conference. And in Australia and New Zealand, Jirotech provide commercial support and training courses for GeoSpatial Open Source.</p>
                   </aside>
